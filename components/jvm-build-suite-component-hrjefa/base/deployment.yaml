@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-hrjefa
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/jvm-build-nbwa-tenant/jvm-build-suite-application-qwcz/jvm-build-suite-component-hrjefa@sha256:786ceab196b0b4b84648b25aed01989f114505a90d3aedaa723e8d2f8514460d
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
