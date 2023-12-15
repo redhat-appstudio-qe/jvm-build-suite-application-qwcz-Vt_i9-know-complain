@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-hrjefa
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/jvm-build-nbwa-tenant/jvm-build-suite-application-qwcz/jvm-build-suite-component-hrjefa@sha256:786ceab196b0b4b84648b25aed01989f114505a90d3aedaa723e8d2f8514460d
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
